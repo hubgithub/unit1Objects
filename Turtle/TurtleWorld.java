@@ -8,6 +8,47 @@ public class TurtleWorld
         Turtle turtle = new Turtle(turtleWorld);
         turtle.setPenColor(Color.RED);
         turtle.penDown();
-        turtle.forward(50);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(60);
+        turtle.forward(60);
+        turtle.turn(70);
+        turtle.forward(60);
+        turtle.turn(70);
+        turtle.forward(60);
+        turtle.turn(70);
+        turtle.forward(60);
+        turtle.turn(70);
+        turtle.forward(60);
+        turtle.turn(70);
+        turtle.forward(60);
+        turtle.turn(70);
+        turtle.forward(60);
+        turtle.turn(70);
+        turtle.forward(60);
+        
     }
 }
