@@ -5,50 +5,15 @@ public class TurtleWorld
     public static void main(String args[])
     {
         World turtleWorld = new World();
-        Turtle turtle = new Turtle(turtleWorld);
+        Turtle turtle = new Turtle(0,0,turtleWorld);
         turtle.setPenColor(Color.RED);
         turtle.penDown();
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(60);
-        turtle.forward(60);
-        turtle.turn(70);
-        turtle.forward(60);
-        turtle.turn(70);
-        turtle.forward(60);
-        turtle.turn(70);
-        turtle.forward(60);
-        turtle.turn(70);
-        turtle.forward(60);
-        turtle.turn(70);
-        turtle.forward(60);
-        turtle.turn(70);
-        turtle.forward(60);
-        turtle.turn(70);
-        turtle.forward(60);
-        
+        int y = 1;
+        while (y < 999999)
+        {
+            turtle.backward(2);
+            turtle.turn(1);
+            y += 1;
+        }
     }
 }
