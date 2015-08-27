@@ -9,7 +9,7 @@ public class TurtleWorld
         turtle.setPenColor(Color.RED);
         turtle.penDown();
         int y = 1;
-        while (y < 999999)
+        while (y < 88888)
         {
             turtle.backward(2);
             turtle.turn(1);
