@@ -6,32 +6,47 @@ public class Turtlelab
     throws InterruptedException
     {
         World turtleWorld = new World();
-        Turtle turtle1 = new Turtle(500,200,turtleWorld);
+        Turtle turtle1 = new Turtle(0,0,turtleWorld);
         turtle1.setPenColor(Color.RED);
+        turtle1.setBodyColor(Color.cyan);
         turtle1.penDown();
-        turtle1.forward(20);
+        turtle1.setPenWidth(5);
+
         
         
         
-        Turtle turtle2 = new Turtle(490,210,turtleWorld);
+        Turtle turtle2 = new Turtle(630,520,turtleWorld);
         turtle2.setPenColor(Color.YELLOW);
-        turtle2.penDown();                
-        turtle2.forward(20);
+        turtle2.setBodyColor(Color.red);
+        turtle2.penDown();
+        turtle2.setPenWidth(5);
+
+        
+        Turtle turtle3 = new Turtle(0,210,turtleWorld);
+        turtle3.setPenColor(Color.GREEN);
+        turtle3.setBodyColor(Color.green);
+        turtle3.penDown();
+        turtle3.setPenWidth(5);
         
         int x = 0;
-        int pen = 10;
-        int ang = 10;
-        while (x <= 36)
-        {
-            turtle1.forward(pen);
-//             turtle2.forward(pen);
-            turtle1.turn(ang);
-//             turtle2.turn(ang);
+
+
+        while (x<= 13)
+        {   
+ 
+                
+            turtle1.turn(150);
+            turtle1.forward(630);
+            turtle1.turn(-300);
+            turtle1.forward(630);
             x += 1;
-//             pen += 3;
-//             ang += 1;
-         
-        }
+            
+            turtle2.turn(-150);
+            turtle2.forward(630);
+            turtle2.turn(300);
+            turtle2.forward(630);
+        
         
     }
+}
 }
