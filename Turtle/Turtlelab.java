@@ -99,30 +99,7 @@ public class Turtlelab
         num += 1;
         Thread.sleep(20);
     }
-    
-    turtle1.setBodyColor(Color.BLACK);
-    turtle1.isVisible();
-    turtle1.moveTo(300,300);
-    turtle1.setPenColor(Color.BLACK);
-    turtle1.setPenWidth(100);
-    turtle1.forward(20);
-    
-    turtle2.setBodyColor(Color.BLACK);
-    turtle3.setBodyColor(Color.BLACK);
-    turtle4.setBodyColor(Color.BLACK);
-    turtle5.setBodyColor(Color.BLACK);
-//     turtle6.setBodyColor(Color.BLACK);
-//     turtle7.setBodyColor(Color.BLACK);
-//     turtle8.setBodyColor(Color.BLACK);
-//     
-//     if ( (x & 1) == 0 )
-    
-    
-    
-    
-    
-    
-    
+
     
 }
 }
